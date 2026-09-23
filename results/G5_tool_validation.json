@@ -1,0 +1,10 @@
+{
+ "n_isolates": 30,
+ "n_calls": 77,
+ "accuracy": 0.8701298701298701,
+ "flag_rate_in_missed_R": 1.0,
+ "n_missed": 7,
+ "flag_rate_in_caught_R": 0.6666666666666666,
+ "n_caught": 9,
+ "note": "30 random 2020+ isolates (seed 42), tool trained on <=2019. Flags use per-determinant miss rates computed on the SAME date-test set, so the flag rates here are in-sample and optimistic; reported for transparency."
+}
