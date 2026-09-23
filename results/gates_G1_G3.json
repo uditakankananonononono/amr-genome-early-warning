@@ -1,0 +1,269 @@
+{
+ "G1": {
+  "mean_drop_ML": 0.1338022340956113,
+  "CI": [
+   0.1093026562600948,
+   0.1579742224076159
+  ],
+  "n_cells": 20,
+  "PASS": true
+ },
+ "G1_cells": [
+  {
+   "species": "klebsiella",
+   "drug": "ceftazidime",
+   "model": "M0",
+   "BA_random": 0.7556195175438596,
+   "BA_date": 0.7108519856862194,
+   "drop": 0.04476753185764015
+  },
+  {
+   "species": "klebsiella",
+   "drug": "ceftazidime",
+   "model": "M1",
+   "BA_random": 0.8665021929824561,
+   "BA_date": 0.7181009682851529,
+   "drop": 0.1484012246973032
+  },
+  {
+   "species": "klebsiella",
+   "drug": "ceftazidime",
+   "model": "M2",
+   "BA_random": 0.8999451754385965,
+   "BA_date": 0.6664897909065395,
+   "drop": 0.23345538453205705
+  },
+  {
+   "species": "klebsiella",
+   "drug": "meropenem",
+   "model": "M0",
+   "BA_random": 0.6802036973639165,
+   "BA_date": 0.5896144671654876,
+   "drop": 0.0905892301984289
+  },
+  {
+   "species": "klebsiella",
+   "drug": "meropenem",
+   "model": "M1",
+   "BA_random": 0.7443512495720643,
+   "BA_date": 0.6625211523170706,
+   "drop": 0.08183009725499368
+  },
+  {
+   "species": "klebsiella",
+   "drug": "meropenem",
+   "model": "M2",
+   "BA_random": 0.7833361862375898,
+   "BA_date": 0.6263532385981365,
+   "drop": 0.1569829476394533
+  },
+  {
+   "species": "klebsiella",
+   "drug": "ciprofloxacin",
+   "model": "M0",
+   "BA_random": 0.5132743362831859,
+   "BA_date": 0.512552065743555,
+   "drop": 0.0007222705396308093
+  },
+  {
+   "species": "klebsiella",
+   "drug": "ciprofloxacin",
+   "model": "M1",
+   "BA_random": 0.8174570045082652,
+   "BA_date": 0.6395924800180119,
+   "drop": 0.17786452449025325
+  },
+  {
+   "species": "klebsiella",
+   "drug": "ciprofloxacin",
+   "model": "M2",
+   "BA_random": 0.8440056770746369,
+   "BA_date": 0.6395361927276821,
+   "drop": 0.20446948434695478
+  },
+  {
+   "species": "klebsiella",
+   "drug": "gentamicin",
+   "model": "M0",
+   "BA_random": 0.6800595238095238,
+   "BA_date": 0.5804162178796738,
+   "drop": 0.09964330592985005
+  },
+  {
+   "species": "klebsiella",
+   "drug": "gentamicin",
+   "model": "M1",
+   "BA_random": 0.8043154761904762,
+   "BA_date": 0.6553315894753039,
+   "drop": 0.14898388671517226
+  },
+  {
+   "species": "klebsiella",
+   "drug": "gentamicin",
+   "model": "M2",
+   "BA_random": 0.8258928571428572,
+   "BA_date": 0.689894599169103,
+   "drop": 0.1359982579737542
+  },
+  {
+   "species": "klebsiella",
+   "drug": "trimethoprim-sulfamethoxazole",
+   "model": "M0",
+   "BA_random": 0.6871355060034305,
+   "BA_date": 0.6451478974744627,
+   "drop": 0.04198760852896788
+  },
+  {
+   "species": "klebsiella",
+   "drug": "trimethoprim-sulfamethoxazole",
+   "model": "M1",
+   "BA_random": 0.7861063464837049,
+   "BA_date": 0.6705286081343611,
+   "drop": 0.11557773834934382
+  },
+  {
+   "species": "klebsiella",
+   "drug": "trimethoprim-sulfamethoxazole",
+   "model": "M2",
+   "BA_random": 0.8608919382504288,
+   "BA_date": 0.6592796264962085,
+   "drop": 0.20161231175422023
+  },
+  {
+   "species": "ecoli",
+   "drug": "ceftazidime",
+   "model": "M0",
+   "BA_random": 0.5,
+   "BA_date": 0.5,
+   "drop": 0.0
+  },
+  {
+   "species": "ecoli",
+   "drug": "ceftazidime",
+   "model": "M1",
+   "BA_random": 0.8653197477146621,
+   "BA_date": 0.7371147192429808,
+   "drop": 0.12820502847168136
+  },
+  {
+   "species": "ecoli",
+   "drug": "ceftazidime",
+   "model": "M2",
+   "BA_random": 0.8503003872100914,
+   "BA_date": 0.6528568961004041,
+   "drop": 0.19744349110968729
+  },
+  {
+   "species": "ecoli",
+   "drug": "meropenem",
+   "model": "M0",
+   "BA_random": 0.6991538068036491,
+   "BA_date": 0.5926111556624789,
+   "drop": 0.10654265114117023
+  },
+  {
+   "species": "ecoli",
+   "drug": "meropenem",
+   "model": "M1",
+   "BA_random": 0.6744927103759911,
+   "BA_date": 0.5577794113279277,
+   "drop": 0.11671329904806338
+  },
+  {
+   "species": "ecoli",
+   "drug": "meropenem",
+   "model": "M2",
+   "BA_random": 0.6474656833489641,
+   "BA_date": 0.5384589681903235,
+   "drop": 0.10900671515864069
+  },
+  {
+   "species": "ecoli",
+   "drug": "ciprofloxacin",
+   "model": "M0",
+   "BA_random": 0.8742523266757294,
+   "BA_date": 0.7475750262608534,
+   "drop": 0.12667730041487602
+  },
+  {
+   "species": "ecoli",
+   "drug": "ciprofloxacin",
+   "model": "M1",
+   "BA_random": 0.9394698316427899,
+   "BA_date": 0.8390209687927985,
+   "drop": 0.10044886284999133
+  },
+  {
+   "species": "ecoli",
+   "drug": "ciprofloxacin",
+   "model": "M2",
+   "BA_random": 0.9468864373104674,
+   "BA_date": 0.828991982129323,
+   "drop": 0.11789445518114439
+  },
+  {
+   "species": "ecoli",
+   "drug": "gentamicin",
+   "model": "M0",
+   "BA_random": 0.9291891360693798,
+   "BA_date": 0.8315292055521342,
+   "drop": 0.09765993051724564
+  },
+  {
+   "species": "ecoli",
+   "drug": "gentamicin",
+   "model": "M1",
+   "BA_random": 0.9370631518174113,
+   "BA_date": 0.8218686342318442,
+   "drop": 0.11519451758556709
+  },
+  {
+   "species": "ecoli",
+   "drug": "gentamicin",
+   "model": "M2",
+   "BA_random": 0.9256421437959881,
+   "BA_date": 0.765999099909991,
+   "drop": 0.15964304388599704
+  },
+  {
+   "species": "ecoli",
+   "drug": "trimethoprim-sulfamethoxazole",
+   "model": "M0",
+   "BA_random": 0.9343396827081233,
+   "BA_date": 0.9162892171469925,
+   "drop": 0.01805046556113077
+  },
+  {
+   "species": "ecoli",
+   "drug": "trimethoprim-sulfamethoxazole",
+   "model": "M1",
+   "BA_random": 0.9241170124334555,
+   "BA_date": 0.90651951811332,
+   "drop": 0.017597494320135465
+  },
+  {
+   "species": "ecoli",
+   "drug": "trimethoprim-sulfamethoxazole",
+   "model": "M2",
+   "BA_random": 0.9086857324773173,
+   "BA_date": 0.8999638159295049,
+   "drop": 0.008721916547812403
+  }
+ ],
+ "G2": {
+  "c_no_determinant": 371,
+  "b_known_determinant": 869,
+  "a_unseen_determinant": 41
+ },
+ "G3": {
+  "AUROC": 0.5218314444980562,
+  "CI": [
+   0.5067748134066288,
+   0.5362951598633217
+  ],
+  "n_R": 3669,
+  "n_FN": 1281,
+  "PASS": false,
+  "score": "novelty = #determinants unseen before cutoff + 2 x #unseen determinants of the drug's class"
+ }
+}
