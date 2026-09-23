@@ -1,0 +1,99 @@
+{
+ "gate_test": {
+  "novel_alleles_in_test": 5,
+  "in_FN": [
+   "blaNDM-50"
+  ],
+  "note": "n<10 -> descriptive per GATES_LOCKED G4"
+ },
+ "exploratory_post_vs_pre": {
+  "table_proximal_distal": [
+   [
+    16,
+    85
+   ],
+   [
+    45,
+    192
+   ]
+  ],
+  "OR": 0.8031372549019608,
+  "p": 0.5395323439838229,
+  "label": "EXPLORATORY (not pre-registered): post-2019 vs pre-2020 alleles observed in PDG, proximal = <=8 A to site"
+ },
+ "per_family": {
+  "blaKPC": {
+   "n": 125,
+   "post": 64
+  },
+  "blaSHV": {
+   "n": 143,
+   "post": 12
+  },
+  "blaNDM": {
+   "n": 48,
+   "post": 24
+  },
+  "blaIMP": {
+   "n": 22,
+   "post": 1
+  }
+ },
+ "test_novel_detail": [
+  {
+   "family": "blaKPC",
+   "allele": "blaKPC-45",
+   "first_year": 2020,
+   "n_subs": 1,
+   "min_dist_site": 23.23396873474121,
+   "proximal": 0,
+   "in_test_novel": 1,
+   "in_FN": 0,
+   "subs": "T92K:23.2"
+  },
+  {
+   "family": "blaSHV",
+   "allele": "blaSHV-57",
+   "first_year": 2024,
+   "n_subs": 1,
+   "min_dist_site": 6.577915668487549,
+   "proximal": 1,
+   "in_test_novel": 1,
+   "in_FN": 0,
+   "subs": "L165R:6.6"
+  },
+  {
+   "family": "blaSHV",
+   "allele": "blaSHV-250",
+   "first_year": 2022,
+   "n_subs": 2,
+   "min_dist_site": 5.39422082901001,
+   "proximal": 1,
+   "in_test_novel": 1,
+   "in_FN": 0,
+   "subs": "Y3F:;G232E:5.4"
+  },
+  {
+   "family": "blaNDM",
+   "allele": "blaNDM-50",
+   "first_year": 2022,
+   "n_subs": 3,
+   "min_dist_site": 8.808964729309082,
+   "proximal": 0,
+   "in_test_novel": 1,
+   "in_FN": 1,
+   "subs": "M22I:;D130N:17.1;M154L:8.8"
+  },
+  {
+   "family": "blaIMP",
+   "allele": "blaIMP-18",
+   "first_year": 2020,
+   "n_subs": 48,
+   "min_dist_site": 6.3888115882873535,
+   "proximal": 1,
+   "in_test_novel": 1,
+   "in_FN": 0,
+   "subs": "S2K:;S5F:;F7L:;F8C:;I9V:;L11F:;F12L:;S14N:;T17A:;A19D:;E20D:;D31E:21.5;E32K:23.8;N44K:12.6;P50T:6.7;N59K:27.8;A60N:27.7;E61D:24.2;F69I:8.1;T79N:21.9;V82I:24.7;R84H:25.8;K87R:24.6;S94T:7.3;S98G:6.4;G102A:10.3;R110Q:23.1;P113S:19.7;G128N:15.6;N140S:20.4;W142S:22.1;V144I:22.6;P159Q:8.5;R169K:22.8;I178V:8.4;Y181D:13.6;I191L:13.2;L200I:18.8;K202M:18.7;P213S:8.1;V218I:14.1;D220N:18.0;K225Q:18.4;L226R:16.3;L228W:16.6;S242L:;K243Q:;N246S:"
+  }
+ ]
+}
