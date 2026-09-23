@@ -6,3 +6,8 @@
 | bla.tsv (AMRFinderPlus allele counts by year) | https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/allele_counts_by_year/bla.tsv | 37b5e4bdf1e7384eaacd98159830f70b085a2b5d6e80db3fcd132bc8854666fd |
 | ReferenceGeneCatalog.txt (AMRFinderPlus DB 2026-08-07.1) | https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/ReferenceGeneCatalog.txt | fa41ade01712841e639c91163243bace1c34755b927e69e0c8678540268a7fd4 |
 Raw PDG files are re-downloadable at the URLs above (NCBI rotates "latest"; the PDG version is in the name). data/isolates.tsv is derived by code/build_dataset.py.
+| AMRProt-mutation.tsv | https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt-mutation.tsv | b6f441972d1753a0cc9b1a4d317950eb085e3a52bea8b6d82e0ff53b15280f7b |
+| AMR_DNA-Escherichia.tsv | https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMR_DNA-Escherichia.tsv | 495c2c35bb396d7538d7562774f5029c69ee1940269435fbc91b8d7fe25f9fae |
+| AMR_DNA-Klebsiella_pneumoniae.tsv | https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMR_DNA-Klebsiella_pneumoniae.tsv | 58050e41d93dc5879c946f33156153c0c5d6e49af9ae81091d01b6b824ab83a2 |
+| AMRProt.fa (not committed: re-download) | https://ftp.ncbi.nlm.nih.gov/pathogen/Antimicrobial_resistance/AMRFinderPlus/database/latest/AMRProt.fa | 41d5ebf4f807c9590f27de7dd23c9f037afb4d8efd613790c54847fb1fc2896b |
+| PDB 2OV5 / 1SHV / 4EYL / 1DD6 | https://files.rcsb.org/download/<ID>.pdb | see MANIFEST.sha256 (data/structures/) |

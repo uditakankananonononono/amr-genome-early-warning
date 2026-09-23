@@ -1,0 +1,20 @@
+{
+ "label": "POST-HOC sensitivity, not pre-registered",
+ "intrinsic_proxy": {
+  "klebsiella": [
+   "emrD",
+   "fosA",
+   "oqxA"
+  ],
+  "ecoli": [
+   "acrF",
+   "blaEC"
+  ]
+ },
+ "categories": {
+  "c_no_acquired_determinant": 396,
+  "b_known_acquired_determinant": 844,
+  "a_unseen_determinant": 41
+ },
+ "n": 1281
+}

@@ -7,12 +7,9 @@ fontsize: 11pt
 linestretch: 1.25
 toc: true
 numbersections: true
-header-includes:
-  - \usepackage{float}
-  - \floatplacement{figure}{H}
 ---
 
-\newpage
+<div style="page-break-after: always;"></div>
 
 # Abstract
 
@@ -28,7 +25,7 @@ header-includes:
 
 **Contribution.** A cross-species, date-split benchmark showing that the main reason predictions fail on new isolates is a changed genotype-to-phenotype link for *known* genes, not new genes. This moves the early-warning target away from "watch for new genes" toward "watch for known genes that stop behaving as expected".
 
-\newpage
+<div style="page-break-after: always;"></div>
 
 # Introduction
 
@@ -217,6 +214,8 @@ The locked class-level rule (M0) collapsed to BA near 0.50 for *E. coli* ceftazi
 | (a) unseen determinant of the drug class | 41 | 3.2% |
 | (b) known determinant of the drug class | 869 | 67.8% |
 | (c) no determinant of the drug class | 371 | 29.0% |
+
+A concern is that intrinsic chromosomal genes (for example *blaEC* in *E. coli*) carry drug-class labels and could inflate category (b). In a **post-hoc sensitivity analysis** (not pre-registered) we removed determinants present in 80% or more of a species' isolates (*emrD*, *fosA*, *oqxA* in *K. pneumoniae*; *acrF*, *blaEC* in *E. coli*). Only 25 isolates moved from (b) to (c): 41 / 844 / 396. Category (b) remains 65.9% of misses.
 
 This is the main finding. **New genes are not the main problem.** Two thirds of the missed resistant isolates carry genes the model had already seen. The model had learned from pre-2020 data that those genes were not enough to predict resistance, but in newer isolates they were. Possible reasons include changes in the genetic background, gene expression or copy number, lab methods, or the breakpoints used to call R and S. Our data cannot separate these; the per-isolate testing standard was not in the metadata we used. The 29% with no determinant point to mechanisms outside the AMRFinderPlus catalog (for example porin loss or efflux upregulation without a catalogued mutation).
 

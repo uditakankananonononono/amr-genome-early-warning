@@ -1,0 +1,6 @@
+body{font-family:"DejaVu Serif",Georgia,serif;font-size:13.5pt;line-height:1.6;max-width:none;margin:0 10px;color:#111}
+h1{font-size:18pt;margin-top:26px;border-bottom:1px solid #999}h2{font-size:14.5pt;margin-top:20px}h3{font-size:13pt}
+header h1.title{font-size:22pt;text-align:center;border:none}p.subtitle,p.date{text-align:center}
+table{border-collapse:collapse;margin:12px auto;font-size:11pt;page-break-inside:avoid}th,td{border:1px solid #888;padding:4px 7px}th{background:#eee}
+figure{text-align:center;page-break-inside:avoid;margin:16px 0}figcaption{font-size:10.5pt;font-style:italic}img{max-width:100%}
+pre{background:#f4f4f4;padding:8px;font-size:10pt;white-space:pre-wrap}nav#TOC{page-break-after:always}
